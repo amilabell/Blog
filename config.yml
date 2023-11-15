@@ -15,10 +15,10 @@ menu:
     pageRef: /
     weight: 10
   - name: blog posts
-    pageRef: posts/
+    pageRef: /posts
     weight: 20
-    url: posts/
+    url: /posts
   - name: writeups
-    pageRef: writeups/
+    pageRef: /writeups
     weight: 20
-    url: writeups/
+    url: /writeups
