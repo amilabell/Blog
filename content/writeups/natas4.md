@@ -1,5 +1,5 @@
 ---
-title: "Natas4"
+title: "Natas 4 -> Natas 5"
 date: 2023-11-15T18:49:07Z
 draft: false
 toc: false
@@ -7,7 +7,6 @@ images:
 tags: 
   - untagged
 ---
-# Natas 4 -> Natas 5
 
 | url | http://natas4.natas.labs.overthewire.org/ | 
 |---| -- |

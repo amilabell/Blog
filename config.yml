@@ -11,7 +11,7 @@ params:
   dateformNumTime: "2006-01-02 15:04 -0700"
 menu:
   main:
-  - name: Home
+  - name: home
     pageRef: /
     weight: 10
   - name: blog posts

@@ -1,5 +1,5 @@
 ---
-title: "Natas8"
+title: "Natas 8 -> Natas 9"
 date: 2023-11-15T18:49:20Z
 draft: false
 toc: false
@@ -7,8 +7,6 @@ images:
 tags: 
   - untagged
 ---
-# Natas 8
-
 
 | url | http://natas8.natas.labs.overthewire.org/ | 
 |---| -- |
@@ -23,7 +21,7 @@ tags:
 How do we start? You should really know that by now - by looking at the rendered webpage.
 ![Pasted image 20231003171036.png](/Pasted%20image%2020231003171036.png)
 
-Similar to [Natas 6](Natas%206.md) the webpage consists of a form that we can input text in and submit and a link to view the sourcecode. So let's do that.
+Similar to [Natas 6](../natas6) the webpage consists of a form that we can input text in and submit and a link to view the sourcecode. So let's do that.
 ## Digging deeper
 
 ```html

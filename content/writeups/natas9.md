@@ -1,5 +1,5 @@
 ---
-title: "Natas9"
+title: "Natas 9 -> Natas 10"
 date: 2023-11-15T18:49:23Z
 draft: false
 toc: false
@@ -7,7 +7,6 @@ images:
 tags: 
   - untagged
 ---
-# Natas 9
 
 | url | http://natas9.natas.labs.overthewire.org/ | 
 |---| -- |
@@ -22,7 +21,7 @@ tags:
 ## Getting an overview
 You know the drill. Let's take a look at what we got.
 ![Pasted image 20231004135452.png](/Pasted%20image%2020231004135452.png)
-Similar to [Natas 8](Natas%208.md) we get an input field and a link to the sourcecode. This time however we are not asked to provide a secret. Instead the input field seems to be some kind of search. Let's try it out:
+Similar to [Natas 8](../natas8) we get an input field and a link to the sourcecode. This time however we are not asked to provide a secret. Instead the input field seems to be some kind of search. Let's try it out:
 ![natas9_trying_out_search.png](/natas9_trying_out_search.png)
 Interesting! Apparently this website is some kind of dictionary search. Let's check out the clientside code first, before checking out the linked serverside sourcecode:
 ![natas9_clientside_code.png](/natas9_clientside_code.png)
@@ -64,7 +63,7 @@ $key = "";
 ```
 
 The code consists of two if statements. 
-The first one is similar to the ones we have seen in [Natas 8](Natas%208.md).
+The first one is similar to the ones we have seen in [Natas 8](../natas8).
 ```php
 if(array_key_exists("needle", $_REQUEST)) {
 	$key = $_REQUEST["needle"];

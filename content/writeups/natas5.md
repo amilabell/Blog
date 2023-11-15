@@ -1,5 +1,5 @@
 ---
-title: "Natas5"
+title: "Natas 5 -> Natas 6"
 date: 2023-11-15T18:49:11Z
 draft: false
 toc: false
@@ -7,7 +7,6 @@ images:
 tags: 
   - untagged
 ---
-# Natas 5 -> Natas 6
 
 | url | http://natas5.natas.labs.overthewire.org/ | 
 |---| -- |
@@ -25,7 +24,7 @@ As always we start by taking a look at the webpage.
 Apparently we have to be logged in to view the content (presumably the next password). Since we successfully authenticated with the credentials of natas5, there seems to be another login-check implemented. What could that be? 
 
 ## Digging deeper
-In [Natas 4](/Natas%204.md) we learned about burpsuite and that intercepted HTTP traffic can be manipulated before it is forwarded again. So let's see if this also helps in this level.
+In [Natas 4](../natas4) we learned about burpsuite and that intercepted HTTP traffic can be manipulated before it is forwarded again. So let's see if this also helps in this level.
 Additionally to viewing the rendered and source version of the webpage (as we did in the earlier levels) let's also take a look at the requests made. 
 We start by loading the page in the burp browser once with interception turned off, providing username and password. 
 Then we turn interception on and reload the page.

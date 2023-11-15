@@ -1,5 +1,5 @@
 ---
-title: "Natas0"
+title: "Natas 0 -> Natas 1"
 date: 2023-11-15T17:05:14Z
 draft: false
 toc: false
@@ -8,7 +8,6 @@ tags:
   - untagged
 password: fOIvE0MDtPTgRhqmmvvAOt2EfXR6uQgR
 ---
-# Natas 0 -> Natas 1
 
 | url |http://natas0.natas.labs.overthewire.org/|
 | ---| --|
