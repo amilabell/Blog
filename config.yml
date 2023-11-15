@@ -16,4 +16,8 @@ menu:
   - name: blog posts
     pageRef: /posts/
     weight: 20
-    url: blog/posts
+    url: /posts
+  - name: writeups
+    pageRef: /writeups/
+    weight: 20
+    url: /writeups/
