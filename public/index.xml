@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>amilabells blog</title>
+    <link>http://amilabell.github.io/</link>
+    <description>Recent content on amilabells blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Nov 2023 15:45:50 +0000</lastBuildDate><atom:link href="http://amilabell.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test_post</title>
+      <link>http://amilabell.github.io/posts/test_post/</link>
+      <pubDate>Wed, 15 Nov 2023 15:45:50 +0000</pubDate>
+      
+      <guid>http://amilabell.github.io/posts/test_post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://amilabell.github.io/about/</link>
+      <pubDate>Wed, 15 Nov 2023 15:41:50 +0000</pubDate>
+      
+      <guid>http://amilabell.github.io/about/</guid>
+      <description>can you see me?</description>
+    </item>
+    
+  </channel>
+</rss>

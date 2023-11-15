@@ -1,0 +1,14 @@
+baseURL: "http://amilabell.github.io/" 
+languageCode: en-us
+theme: hermit-v2
+paginate: 5
+title: amilabells blog
+menu:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  - name: blog posts
+    pageRef: /posts
+    weight: 20
+    url: posts/
