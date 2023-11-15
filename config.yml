@@ -1,4 +1,4 @@
-baseURL: "http://amilabell.github.io/blog" 
+baseURL: "http://amilabell.github.io/blog/" 
 languageCode: en-us
 theme: hermit-v2
 paginate: 5
