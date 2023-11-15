@@ -21,7 +21,7 @@ tags:
 
 ## Getting an overview
 On the website we can see a header and a textbox:
-![testimage](natas0_first_screenshot.png)
+![testimage](/natas0_first_screenshot.png)
 The textbox claims that the password can be found on this page. However, viewing the rendered page does not show us a password.
 So what now?
 
