@@ -28,7 +28,7 @@ There are two things that stand out:
 2. we get a link to the sourcecode
 ## Digging deeper
 Before trying to blindly bruteforce the secret, let's take a look at the sourcecode:
-```
+```html
 <html>  
 <head>  
 <!-- This stuff in the header has nothing to do with the level -->  
@@ -70,7 +70,7 @@ Input secret: <input name=secret><br>
 The interesting part of this code is within the content div. There we see embedded php code (`<? ... ?>`). 
 Of course understanding php helps in this scenario but even without detailed php knowledge we can get a rough understanding of what's going on. For the details it is always a good idea to check the official documentation. 
 Here an annotated version of the code:
-```
+```php
 include "includes/secret.inc";  #includes the content of the specified file
   
     if(array_key_exists("submit", $_POST)) {  #checks if the key "submit" is contained in the _POST array

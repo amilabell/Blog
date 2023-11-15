@@ -36,7 +36,10 @@ Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
 Authorization: Basic bmF0YXM0OnRLT2NKSWJ6TTRsVHM4aGJDbXpuNVpyNDQzNGZHWlFt
 Connection: keep-alive
-Cookie: __utma=176859643.1047432696.1695548466.1696261589.1696327732.6; __utmz=176859643.1695548466.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmb=176859643.3.10.1696327732; __utmc=176859643; __utmt=1
+Cookie: __utma=176859643.1047432696.1695548466.1696261589.1696327732.6; 
+        __utmz=176859643.1695548466.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); 
+        __utmb=176859643.3.10.1696327732; 
+        __utmc=176859643; __utmt=1
 Upgrade-Insecure-Requests: 1
 ```
 We can see all the basic components of an HTTP GET request. The host the user-agen and so on. We can also see (or rather not see) the referrer. Since there is no `Referer` field provided, that is probably the reason the webserver says we accessed the website from " " (see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer)
@@ -73,8 +76,11 @@ GET /index.php HTTP/1.1
 Host: natas4.natas.labs.overthewire.org
 Authorization: Basic bmF0YXM0OnRLT2NKSWJ6TTRsVHM4aGJDbXpuNVpyNDQzNGZHWlFt
 Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.110 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+(KHTML, like Gecko) Chrome/114.0.5735.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,
+image/avif,image/webp,image/apng,*/*;q=0.8,
+application/signed-exchange;v=b3;q=0.7
 Referer: http://natas4.natas.labs.overthewire.org/
 Accept-Encoding: gzip, deflate
 Accept-Language: en-US,en;q=0.9

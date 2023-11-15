@@ -19,7 +19,7 @@ tags:
 > Which workarounds for the right-click are there?
 ## Getting an overview
 Similarly to the last level the webpage displays a header and a simple textbox:
-![Pasted image 20231003090829.pngPasted%20image%2020231003090829.png)
+![Pasted image 20231003090829.png](/Pasted%20image%2020231003090829.png)
 Since the password is supposedly on this page but we can't see it in the rendered website, we can assume that it is hidden somewhere in the sourcecode. 
 However, this time the textbox claims that right-clicking is blocked. And indeed, if we rightclick in the textbox instead of our trusty browser menu we get a notification:
 ![Pasted image 20231003090938.png](/Pasted%20image%2020231003090938.png)
