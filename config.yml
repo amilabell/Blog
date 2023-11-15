@@ -1,4 +1,4 @@
-baseURL: "http://amilabell.github.io/blog/" 
+baseURL: "http://amilabell.github.io/blog" 
 languageCode: en-us
 theme: hermit-v2
 paginate: 5
@@ -17,8 +17,8 @@ menu:
   - name: blog posts
     pageRef: posts/
     weight: 20
-    url: posts
+    url: posts/
   - name: writeups
-    pageRef: /writeups/
+    pageRef: writeups/
     weight: 20
     url: writeups/
