@@ -3,12 +3,17 @@ languageCode: en-us
 theme: hermit-v2
 paginate: 5
 title: amilabells blog
+params:
+  dateform: "Jan 2, 2006" 
+  dateformShort: "Jan 2"
+  dateformNum: "2006-01-02"
+  dateformNumTime: "2006-01-02 15:04 -0700"
 menu:
   main:
   - name: Home
     pageRef: /
     weight: 10
   - name: blog posts
-    pageRef: /posts
+    pageRef: /posts/
     weight: 20
-    url: posts/
+    url: posts
