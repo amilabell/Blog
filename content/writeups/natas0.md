@@ -28,7 +28,7 @@ So what now?
 ## Digging Deeper
 When looking at a website from a security perspective it makes sense to not only trust the rendered website (what the browser depicts) but also check the sourcecode. This can be done by using the 'Inspect' function of the browser of your choice. For firefox you can either do  `rightclick` + `inspect`  or use the shortcut `strg` + `shift` + `c`.
 The sourcecode of this webpage looks like this:
-![Pasted image 20231004120340.png](Pasted%20image%2020231004120340.png)
+![Pasted image 20231004120340.png](/Pasted%20image%2020231004120340.png)
 We can see the html code defining the `div` displaying the text we saw earlier. Additionally we can see a html comment (`<!-->` syntax). This comment contains our next password!
 
 ## Further Reading
