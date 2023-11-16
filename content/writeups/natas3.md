@@ -1,6 +1,6 @@
 ---
-title: "Natas3 -> Natas 4"
-date: 2023-11-16T10:11:51Z
+title: "Natas 3 -> Natas 4"
+date: 2023-11-16T10:18:12Z
 draft: false
 toc: false
 images:
@@ -90,4 +90,4 @@ Obviously for someone with a background in either web-development, web penetrati
 
 ## Further reading
 https://developers.google.com/search/docs/crawling-indexing/robots/intro
-https://medium.com/@hninja049/directory-enumeration-1ba91012dcf8⏎ 
+https://medium.com/@hninja049/directory-enumeration-1ba91012dcf8
